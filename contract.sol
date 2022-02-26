@@ -4,7 +4,7 @@ contract Greeter {
   string public greeting;
 
   constructor() public {
-    greeting = 'Sulekha Jarajapu 10580273';
+    greeting = 'Smart Contract is deployed by Sulekha Jarajapu 10580273';
   }
 
   function setGreeting(string memory _greeting) public {
