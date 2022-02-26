@@ -7,9 +7,10 @@ from web3.providers.websocket import WebsocketProvider
 from web3 import Web3
 from solc import compile_standard
 print("hello world")
- with open("contract.sol") as c:
+with open("contract.sol") as c:
 contractText=c.read()
 with open(".pk") as pkfile:
 privateKey=pkfile.read()
 with open(".infura") as infurafile:
 infuraKey=infurafile.read()
+print("account created")
